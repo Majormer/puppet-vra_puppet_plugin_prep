@@ -21,3 +21,5 @@ vro-plugin-user ALL = (root) NOPASSWD: /opt/puppetlabs/bin/puppet resource servi
 vro-plugin-user ALL = (root) NOPASSWD: /bin/cp /etc/puppetlabs/puppet/ssl/ca/ca_crl.pem /etc/puppetlabs/puppet/ssl/crl.pem
 vro-plugin-user ALL = (root) NOPASSWD: /bin/ls
 vro-plugin-user ALL = (root) NOPASSWD: /usr/bin/ls
+vro-plugin-user ALL = (root) NOPASSWD: /bin/cat
+vro-plugin-user ALL = (root) NOPASSWD: /usr/bin/cat
